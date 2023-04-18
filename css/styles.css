@@ -1,3 +1,148 @@
 body{
-    background-color: aqua;
+    font-family: Roboto, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--dark);
+}
+:root{
+    --primary-brand: #4D5AE5; 
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --tuccess: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+.adr-item{
+    color: var(--text);
+
+}
+.logo-link{
+    width: 44px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+    text-decoration: none;
+}
+
+.logo-span {
+    width: 71px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.link {
+    width: 48px;
+    height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.conection-list {
+    list-style: none;
+}
+
+.item{
+
+}
+.main {
+
+}
+
+.hero-section {
+    background-color: var(--primary-brand);
+}
+
+.main-h {
+
+}
+
+.btn {
+
+}
+.features-section {
+
+}
+
+.invisivle-title {
+
+}
+
+.fet-list {
+
+}
+
+.fet-item {
+
+}
+
+.h3 {
+
+}
+
+.desc {
+
+}
+.do-section {
+
+}
+
+.h2 {
+
+}
+
+.do-list {
+
+}
+
+.do-item {
+
+}
+.team-section {
+
+}
+
+.h2 {
+
+}
+
+.team-list {
+
+}
+
+.team-item {
+
+}
+
+.h3 {
+
+}
+
+.desc {
+
 }
