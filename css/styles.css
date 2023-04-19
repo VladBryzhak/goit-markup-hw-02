@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-font);
     font-weight: regular;
     font-size: 16px;
     line-height: 1.5;
@@ -7,47 +7,49 @@ body{
     color: var(--dark);
 }
 :root{
-    --primary-brand: #4D5AE5; 
-    --pressed-state: #404BBF;
-    --dark: #2E2F42;
-    --tuccess: #31D0AA;
-    --text: #434455;
-    --subtle-text: #8E8F99;
-    --accent: #E7E9FC;
-    --light: #F4F4FD;
-    --modal-overlay: #2E2F42;
-    --hero-background: #2E2F42;
-    --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
+    --iris: #4D5AE5; 
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
 }
 
 .adr-item{
-    color: var(--text);
+    color: var(--slate);
 
 }
 .logo-link{
     width: 44px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: var(--logo-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand);
+    color: var(--iris);
     text-decoration: none;
 }
 
 .logo-span {
     width: 71px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: var(--logo-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
+    color: var(--navy-blue);
     text-decoration: none;
 }
 
@@ -60,7 +62,33 @@ body{
     height: 24px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--dark);
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--ocean);
+    text-decoration: underline 2px solid var(--ocean);
+}
+
+.link:focus{
+    color: var(--ocean);
+    text-decoration: underline 2px solid var(--ocean);
+}
+.adr-link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.adr-link:hover{
+    color: var(--ocean);
+}
+
+.adr-link:focus{
+    color: var(--ocean);
 }
 
 .conection-list {
@@ -75,18 +103,42 @@ body{
 }
 
 .hero-section {
-    background-color: var(--primary-brand);
+    background-color: var(--navy-blue);
 }
 
 .main-h {
-
+    text-align: center;
+    width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white);
 }
 
 .btn {
-
+    background-color:  var(--iris);
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    border-radius: 4px;
+    cursor: pointer;
 }
-.features-section {
+.btn:hover{
+    background-color: var(--ocean);
+}
 
+.btn:focus{
+    background-color: var(--ocean);
+}
+
+.features-section {
+    color: var(--grey);
 }
 
 .invisivle-title {
@@ -94,7 +146,7 @@ body{
 }
 
 .fet-list {
-
+    list-style: none;
 }
 
 .fet-item {
@@ -102,11 +154,16 @@ body{
 }
 
 .h3 {
-
+    width: 264px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .desc {
-
+    width: 264px;
+    color: var(--slate);
 }
 .do-section {
 
