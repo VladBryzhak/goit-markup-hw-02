@@ -1,7 +1,5 @@
 body{
     font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -28,12 +26,10 @@ body{
 
 .nav-link:hover{
     color: var(--ocean);
-    text-decoration: underline 2px solid var(--ocean);
 }
 
 .nav-link:focus{
     color: var(--ocean);
-    text-decoration: underline 2px solid var(--ocean);
 }
 
 .adr-link:hover{
@@ -72,8 +68,6 @@ body{
 .btn {
     font-family: "Roboto", sans-serif;
     background-color:  var(--iris);
-    width: 169px;
-    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;    
@@ -104,8 +98,6 @@ body{
 }
 
 .title-third {
-    width: 264px;
-    height: 24px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -116,7 +108,6 @@ body{
 .desc {
     font-size: 16px;
     line-height: 1.5;
-    width: 264px;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
@@ -163,8 +154,6 @@ body{
 .nav {}
 
 .web-studio-link {
-    width: 44px;
-    height: 21px;
     font-family: var(--logo-font);
     font-weight: 800;
     font-size: 18px;
@@ -175,7 +164,6 @@ body{
 }
 
 .logo-span-header {
-    width: 71px;
     height: 21px;
     font-family: var(--logo-font);
     font-weight: 800;
