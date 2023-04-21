@@ -26,12 +26,12 @@ body{
     --logo-font: "Raleway", sans-serif;
 }
 
-.link:hover{
+.nav-link:hover{
     color: var(--ocean);
     text-decoration: underline 2px solid var(--ocean);
 }
 
-.link:focus{
+.nav-link:focus{
     color: var(--ocean);
     text-decoration: underline 2px solid var(--ocean);
 }
@@ -159,7 +159,7 @@ body{
 
 .nav {}
 
-.logo-link {
+.web-studio-link {
     width: 44px;
     height: 21px;
     font-family: var(--logo-font);
@@ -169,7 +169,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    text-decoration: none;
 }
 
 .logo-span-header {
@@ -185,10 +184,6 @@ body{
 }
 
 .link {
-    width: 48px;
-    height: 24px;
-    font-weight: 500;
-    color: var(--navy-blue);
     text-decoration: none;
 }
 
@@ -197,12 +192,14 @@ body{
 }
 
 .adr-item {
+    font-weight: 500;
     color: var(--slate);
 }
 
 .adr-link {
-    text-decoration: none;
+    font-weight: 400;
     color: var(--slate);
+    font-style: normal;
 }
 
 .fil-item{
@@ -228,4 +225,8 @@ body{
 .fil-btn:focus{
     background-color: var(--ocean);
     color: var(--white);
+}
+.nav-link{
+    font-weight: 500;
+    color: var(--navy-blue);
 }
